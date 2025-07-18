@@ -1,0 +1,22 @@
+# dataset_name.jsonl | epochs | optional: lr | optional: batch_size
+
+# === Phase 1: Reasoning Foundation ===
+math_reasoning.jsonl     | 3 | 3e-4 | 32
+logic_qa.jsonl           | 3 | 3e-4 | 32
+
+# === Phase 2: Instruction Tuning (Core of model) ===
+instructions.jsonl       | 3 | 3e-4 | 32
+
+# === Phase 3: Dialogue + General Response ===
+dialogue.jsonl           | 3 | 2e-4 | 32
+
+# === Phase 4: Code Understanding ===
+code.jsonl               | 3 | 2e-4 | 32
+
+# === Phase 5: Multilingual Extension ===
+multilingual.jsonl       | 3 | 2e-4 | 32
+
+# === (Optional) Phase 6: Combined Reinforcement ===
+# combined.jsonl         | 1 | 1e-4 | 32
+
+# Total: ~53M tokens in 6 epochs over different skills 
