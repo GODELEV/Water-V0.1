@@ -8,10 +8,11 @@
 
 ---
 
-## 🟢 Should You Mark It a Success?
+## 🟢 Should Our Mark It a Success?
 **YES.**
 
-Because your goals were:
+Because 
+our goals were:
 
 ✅ Train a new architecture from scratch
 
